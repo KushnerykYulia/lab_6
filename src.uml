@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>E:/Lab6/src</OriginalElement>
+  <nodes>
+    <node x="661.3930945347117" y="303.3057607090104">Authorization</node>
+    <node x="986.3056683899553" y="136.30576070901043">DocumentRequest</node>
+    <node x="225.25" y="109.66248153618906">Handlers</node>
+    <node x="11.567946824224691" y="303.3057607090104">SubmissionTime</node>
+    <node x="303.3338257016247" y="529.6824224519942">Main</node>
+    <node x="336.4805206794682" y="303.3057607090104">Privacy</node>
+    <node x="-313.34462703101883" y="303.3057607090104">Format</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Privacy" target="Handlers" relationship="TO_ONE">
+      <point x="75.75" y="-69.0" />
+      <point x="563.7305206794682" y="368.9166288921714" />
+      <point x="452.5" y="368.9166288921714" />
+      <point x="75.75" y="31.5" />
+    </edge>
+    <edge source="Privacy" target="Handlers" relationship="REALIZATION">
+      <point x="-75.75" y="-69.0" />
+      <point x="412.2305206794682" y="210.43914067946824" />
+      <point x="301.0" y="210.43914067946824" />
+      <point x="-75.75" y="31.5" />
+    </edge>
+    <edge source="Main" target="Authorization" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="387.3338257016247" y="485.4940915805023" />
+      <point x="812.8930945347117" y="485.4940915805023" />
+      <point x="0.0" y="69.0" />
+    </edge>
+    <edge source="Main" target="Privacy" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="387.3338257016247" y="485.4940915805023" />
+      <point x="487.9805206794682" y="485.4940915805023" />
+      <point x="0.0" y="69.0" />
+    </edge>
+    <edge source="Main" target="Format" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="387.3338257016247" y="485.4940915805023" />
+      <point x="-161.84462703101883" y="485.4940915805023" />
+      <point x="0.0" y="69.0" />
+    </edge>
+    <edge source="SubmissionTime" target="Handlers" relationship="TO_ONE">
+      <point x="75.75" y="-69.0" />
+      <point x="238.8179468242247" y="252.16439917282125" />
+      <point x="452.5" y="252.16439917282125" />
+      <point x="75.75" y="31.5" />
+    </edge>
+    <edge source="Main" target="DocumentRequest" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="387.3338257016247" y="485.4940915805023" />
+      <point x="1152.8056683899554" y="485.4940915805023" />
+      <point x="0.0" y="152.5" />
+    </edge>
+    <edge source="Main" target="SubmissionTime" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="387.3338257016247" y="485.4940915805023" />
+      <point x="163.0679468242247" y="485.4940915805023" />
+      <point x="0.0" y="69.0" />
+    </edge>
+    <edge source="Authorization" target="Handlers" relationship="REALIZATION">
+      <point x="-75.75" y="-69.0" />
+      <point x="737.1430945347117" y="210.43914067946824" />
+      <point x="301.0" y="210.43914067946824" />
+      <point x="-75.75" y="31.5" />
+    </edge>
+    <edge source="Format" target="Handlers" relationship="TO_ONE">
+      <point x="75.75" y="-69.0" />
+      <point x="-86.09462703101883" y="252.16439917282125" />
+      <point x="452.5" y="252.16439917282125" />
+      <point x="75.75" y="31.5" />
+    </edge>
+    <edge source="Authorization" target="Handlers" relationship="TO_ONE">
+      <point x="75.75" y="-69.0" />
+      <point x="888.6430945347117" y="252.16439917282125" />
+      <point x="452.5" y="252.16439917282125" />
+      <point x="75.75" y="31.5" />
+    </edge>
+    <edge source="SubmissionTime" target="Handlers" relationship="REALIZATION">
+      <point x="-75.75" y="-69.0" />
+      <point x="87.31794682422469" y="210.43914067946824" />
+      <point x="301.0" y="210.43914067946824" />
+      <point x="-75.75" y="31.5" />
+    </edge>
+    <edge source="Format" target="Handlers" relationship="REALIZATION">
+      <point x="-75.75" y="-69.0" />
+      <point x="-237.59462703101883" y="210.43914067946824" />
+      <point x="301.0" y="210.43914067946824" />
+      <point x="-75.75" y="31.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.7908878504672899" showDependencies="true" x="566.2200886262922" y="460.9999999999999" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
